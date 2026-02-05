@@ -1,0 +1,5 @@
+company,location,start_date,end_date,role,description,display_order
+Acme Corp,"San Francisco, CA",Jan 2022,Present,Senior Product Designer,"Led design for the core analytics platform, improving usability for enterprise customers and driving adoption of self-service features.",0
+Widgets Inc,"New York, NY",Mar 2019,Dec 2021,Product Designer,"Designed mobile and web experiences for a B2B logistics platform. Introduced a design system that reduced design-to-dev handoff time by 40%.",1
+StartupCo,"Austin, TX",Jun 2017,Feb 2019,UX Designer,"Conducted user research and designed interfaces for an early-stage SaaS product. Helped the team ship v1.0 and grow to 5,000 users.",2
+DesignStudio,"Chicago, IL",Sep 2015,May 2017,Junior Designer,"Contributed to client projects across healthcare, finance, and education. Developed skills in wireframing, prototyping, and usability testing.",3

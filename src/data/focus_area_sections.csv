@@ -1,0 +1,5 @@
+focus_area_id,image_url,text,section_order
+user-research,images/placeholder-1.svg,"Contextual inquiry is one of the most powerful research methods available. By observing users in their natural environment, we uncover workflows, workarounds, and pain points that never surface in surveys or interviews conducted in a conference room.",0
+user-research,images/placeholder-2.svg,"Synthesizing research findings into actionable insights requires moving from individual observations to patterns. Affinity diagramming helps the team cluster hundreds of observations into themes that point toward design opportunities.",1
+user-research,images/placeholder-3.svg,"Validating designs with real users early and often is essential. Prototype testing — whether with paper sketches or interactive mockups — reveals usability issues before they become expensive engineering problems.",2
+user-research,images/placeholder-4.svg,"The final step is communicating findings to stakeholders in a way that drives action. Research reports, journey maps, and persona documents help the broader team internalize user needs and make informed product decisions.",3

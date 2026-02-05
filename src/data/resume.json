@@ -1,0 +1,78 @@
+{
+  "header": {
+    "name": "Jane Doe",
+    "title": "Product Designer",
+    "intro_text": "Product designer with experience in user research, interaction design, and design systems. Passionate about creating intuitive experiences for complex technical products.",
+    "pdf_url": ""
+  },
+  "experience": [
+    {
+      "company": "Acme Corp",
+      "location": "San Francisco, CA",
+      "startDate": "Jan 2022",
+      "endDate": "Present",
+      "role": "Senior Product Designer",
+      "description": "Led design for the core analytics platform, improving usability for enterprise customers and driving adoption of self-service features."
+    },
+    {
+      "company": "Widgets Inc",
+      "location": "New York, NY",
+      "startDate": "Mar 2019",
+      "endDate": "Dec 2021",
+      "role": "Product Designer",
+      "description": "Designed mobile and web experiences for a B2B logistics platform. Introduced a design system that reduced design-to-dev handoff time by 40%."
+    },
+    {
+      "company": "StartupCo",
+      "location": "Austin, TX",
+      "startDate": "Jun 2017",
+      "endDate": "Feb 2019",
+      "role": "UX Designer",
+      "description": "Conducted user research and designed interfaces for an early-stage SaaS product. Helped the team ship v1.0 and grow to 5,000 users."
+    },
+    {
+      "company": "DesignStudio",
+      "location": "Chicago, IL",
+      "startDate": "Sep 2015",
+      "endDate": "May 2017",
+      "role": "Junior Designer",
+      "description": "Contributed to client projects across healthcare, finance, and education. Developed skills in wireframing, prototyping, and usability testing."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "location": "Anytown, USA",
+      "startDate": "2011",
+      "endDate": "2015",
+      "degree": "B.A., Design Studies",
+      "details": "Graduated with honors. Focus on human-computer interaction and visual communication."
+    },
+    {
+      "school": "City College",
+      "location": "Somewhere, USA",
+      "startDate": "2015",
+      "endDate": "2017",
+      "degree": "M.Des., Interaction Design",
+      "details": "Thesis on designing for accessibility in complex data environments."
+    }
+  ],
+  "skills": [
+    {
+      "category": "User Research",
+      "items": "interviews, contextual inquiry, usability testing, surveys, card sorting"
+    },
+    {
+      "category": "Design Tools",
+      "items": "Figma, Sketch, Adobe Creative Suite, Miro, FigJam"
+    },
+    {
+      "category": "Prototyping",
+      "items": "paper prototypes, interactive mockups, click-through demos, design systems"
+    },
+    {
+      "category": "Technical",
+      "items": "HTML, CSS, JavaScript, React basics, accessibility standards (WCAG)"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "user-research",
+    "title": "User Research Methods",
+    "subtitle": "Research Methodologies",
+    "description": "A deep dive into research methodologies and user-centered design practices that drive exceptional design outcomes.",
+    "sections": [
+      {
+        "image": "images/placeholder-1.svg",
+        "text": "Contextual inquiry is one of the most powerful research methods available. By observing users in their natural environment, we uncover workflows, workarounds, and pain points that never surface in surveys or interviews conducted in a conference room.",
+        "sectionTitle": null
+      },
+      {
+        "image": "images/placeholder-2.svg",
+        "text": "Synthesizing research findings into actionable insights requires moving from individual observations to patterns. Affinity diagramming helps the team cluster hundreds of observations into themes that point toward design opportunities.",
+        "sectionTitle": null
+      },
+      {
+        "image": "images/placeholder-3.svg",
+        "text": "Validating designs with real users early and often is essential. Prototype testing — whether with paper sketches or interactive mockups — reveals usability issues before they become expensive engineering problems.",
+        "sectionTitle": null
+      },
+      {
+        "image": "images/placeholder-4.svg",
+        "text": "The final step is communicating findings to stakeholders in a way that drives action. Research reports, journey maps, and persona documents help the broader team internalize user needs and make informed product decisions.",
+        "sectionTitle": null
+      }
+    ],
+    "displayOrder": 0,
+    "password": ""
+  }
+]

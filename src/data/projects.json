@@ -1,0 +1,138 @@
+[
+  {
+    "id": "dashboard",
+    "title": "Data General Systems",
+    "subtitle": "Enterprise Dashboard Redesign",
+    "description": "Led the redesign of a complex analytics dashboard, improving usability for both technical and non-technical stakeholders across the organization.",
+    "reversed": false,
+    "hasDetailPage": true,
+    "details": [],
+    "image": "images/placeholder-1.svg",
+    "images": [
+      "images/placeholder-1.svg"
+    ],
+    "caseStudy": [
+      {
+        "image": "images/placeholder-1.svg",
+        "text": "We started by interviewing stakeholders across four departments to understand how they use the existing dashboard and where they get stuck. The biggest pain point was the lack of customization — every team saw the same default view regardless of their role.",
+        "sectionTitle": null
+      },
+      {
+        "image": "images/placeholder-2.svg",
+        "text": "Based on our research findings, we designed a role-based dashboard system that surfaces the most relevant metrics for each user type. Technical users see detailed system health data, while business stakeholders see high-level KPIs and trends.",
+        "sectionTitle": null
+      },
+      {
+        "image": "images/placeholder-3.svg",
+        "text": "We validated the new designs through three rounds of usability testing. The final iteration reduced the average time to find key metrics from 45 seconds to under 10 seconds. The modular widget system also allowed teams to create custom views without engineering support.",
+        "sectionTitle": null
+      }
+    ],
+    "displayOrder": 0,
+    "password": ""
+  },
+  {
+    "id": "mobile-app",
+    "title": "Orion Logistics",
+    "subtitle": "Mobile App for Field Workers",
+    "description": "Designed a mobile-first experience for field workers who need reliable tools in low-connectivity environments. Focused on offline-first patterns and intuitive task flows.",
+    "reversed": true,
+    "hasDetailPage": true,
+    "details": [
+      {
+        "heading": "User Research & Discovery",
+        "text": "We started by shadowing field workers in three different regions to understand their daily workflows and pain points with existing tools.",
+        "image": "",
+        "caseStudyLink": "",
+        "password": ""
+      },
+      {
+        "heading": "Offline-First Design",
+        "text": "Designed a sync system that lets workers complete tasks without connectivity and seamlessly uploads data when back online.",
+        "image": "",
+        "caseStudyLink": "",
+        "password": ""
+      },
+      {
+        "heading": "Iterative Prototyping",
+        "text": "Built and tested paper prototypes with field workers before moving to high-fidelity designs. Three rounds of testing refined the core task flows.",
+        "image": "",
+        "caseStudyLink": "",
+        "password": ""
+      }
+    ],
+    "image": "images/placeholder-2.svg",
+    "images": [
+      "images/placeholder-2.svg"
+    ],
+    "caseStudy": [
+      {
+        "image": "images/placeholder-2.svg",
+        "text": "Field workers told us their biggest frustration was losing work when connectivity dropped. We designed an offline-first architecture where all data entry happens locally and syncs automatically when a connection becomes available.",
+        "sectionTitle": null
+      },
+      {
+        "image": "images/placeholder-3.svg",
+        "text": "The task management interface was simplified to three core actions: start job, record data, and complete job. Each action was designed to work with gloved hands on a 5-inch screen in bright sunlight.",
+        "sectionTitle": null
+      },
+      {
+        "image": "images/placeholder-4.svg",
+        "text": "After launch, field completion rates increased by 34% and the average time per task decreased by 20%. Workers reported significantly less frustration with the new mobile experience compared to the previous desktop-only workflow.",
+        "sectionTitle": null
+      }
+    ],
+    "displayOrder": 1,
+    "password": ""
+  },
+  {
+    "id": "dev-platform",
+    "title": "Nimbus Cloud",
+    "subtitle": "Developer Platform Experience",
+    "description": "Improved the developer onboarding and documentation experience for a cloud platform, reducing time-to-first-deploy by streamlining setup flows and clarifying API documentation.",
+    "reversed": false,
+    "hasDetailPage": false,
+    "details": [
+      {
+        "heading": "Developer Interviews",
+        "text": "Conducted 15 interviews with developers at various skill levels to understand onboarding friction and documentation gaps.",
+        "image": "",
+        "caseStudyLink": "",
+        "password": ""
+      },
+      {
+        "heading": "Information Architecture",
+        "text": "Restructured the docs site navigation based on card-sorting exercises and tree testing with target users.",
+        "image": "",
+        "caseStudyLink": "",
+        "password": ""
+      },
+      {
+        "heading": "API Playground",
+        "text": "Designed an interactive API explorer that lets developers test endpoints directly in the browser before writing code.",
+        "image": "",
+        "caseStudyLink": "",
+        "password": ""
+      }
+    ],
+    "image": "",
+    "images": [],
+    "caseStudy": [],
+    "displayOrder": 2,
+    "password": ""
+  },
+  {
+    "id": "research",
+    "title": "Various",
+    "subtitle": "Design Research Practice",
+    "description": "Seeing what people do and talking to them in the context of use routinely yields unique insights about their needs and values. Open-ended investigation leads to the most valuable insights when approaching new opportunity spaces.",
+    "reversed": false,
+    "hasDetailPage": false,
+    "details": [],
+    "image": "",
+    "images": [],
+    "caseStudy": [],
+    "displayOrder": 3,
+    "password": ""
+  }
+]

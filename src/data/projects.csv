@@ -1,0 +1,5 @@
+id,title,subtitle,description,image,reversed,hasDetailPage,display_order,password
+dashboard,Data General Systems,Enterprise Dashboard Redesign,"Led the redesign of a complex analytics dashboard, improving usability for both technical and non-technical stakeholders across the organization.",images/placeholder-1.svg,FALSE,TRUE,0,
+mobile-app,Orion Logistics,Mobile App for Field Workers,"Designed a mobile-first experience for field workers who need reliable tools in low-connectivity environments. Focused on offline-first patterns and intuitive task flows.",images/placeholder-2.svg,TRUE,TRUE,1,
+dev-platform,Nimbus Cloud,Developer Platform Experience,"Improved the developer onboarding and documentation experience for a cloud platform, reducing time-to-first-deploy by streamlining setup flows and clarifying API documentation.",,FALSE,FALSE,2,
+research,Various,Design Research Practice,"Seeing what people do and talking to them in the context of use routinely yields unique insights about their needs and values. Open-ended investigation leads to the most valuable insights when approaching new opportunity spaces.",,FALSE,FALSE,3,

@@ -1,0 +1,7 @@
+project_id,heading,text,detail_order,case_study_link,image,password
+mobile-app,User Research & Discovery,"We started by shadowing field workers in three different regions to understand their daily workflows and pain points with existing tools.",0,,,
+mobile-app,Offline-First Design,"Designed a sync system that lets workers complete tasks without connectivity and seamlessly uploads data when back online.",1,,,
+mobile-app,Iterative Prototyping,"Built and tested paper prototypes with field workers before moving to high-fidelity designs. Three rounds of testing refined the core task flows.",2,,,
+dev-platform,Developer Interviews,"Conducted 15 interviews with developers at various skill levels to understand onboarding friction and documentation gaps.",0,,,
+dev-platform,Information Architecture,"Restructured the docs site navigation based on card-sorting exercises and tree testing with target users.",1,,,
+dev-platform,API Playground,"Designed an interactive API explorer that lets developers test endpoints directly in the browser before writing code.",2,,,

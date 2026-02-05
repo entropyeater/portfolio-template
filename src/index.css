@@ -1,0 +1,312 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   Color Palette Override
+   Replaces Tailwind's default cyan with hot coral/pink.
+   Must come AFTER @import "tailwindcss" so these override the defaults.
+   Tailwind utilities like text-cyan-400 resolve to var(--color-cyan-400),
+   so overriding the variable changes the color everywhere.
+   ========================================================================== */
+:root, .dark {
+  /* Hot coral/pink accent (overrides Tailwind cyan) */
+  --color-cyan-50: #FFF0F3;
+  --color-cyan-100: #FFE0E9;
+  --color-cyan-200: #FFB8C9;
+  --color-cyan-300: #FF6B8A;
+  --color-cyan-400: #FF2D55;
+  --color-cyan-500: #E6004D;
+  --color-cyan-600: #BF003F;
+  --color-cyan-700: #990033;
+  --color-cyan-800: #730026;
+  --color-cyan-900: #4D001A;
+  --color-cyan-950: #33000F;
+
+  /* Leading: 1.7× Tailwind defaults */
+  --text-xs--line-height: 2.267;
+  --text-sm--line-height: 2.429;
+  --text-base--line-height: 2.55;
+  --text-lg--line-height: 2.644;
+  --text-xl--line-height: 2.38;
+  --text-2xl--line-height: 2.267;
+  --text-3xl--line-height: 2.04;
+  --text-4xl--line-height: 1.889;
+  --text-5xl--line-height: 1.7;
+  --text-6xl--line-height: 1.7;
+  --text-7xl--line-height: 1.7;
+  --leading-relaxed: 2.7625;
+  --leading-snug: 2.3375;
+}
+
+/* ==========================================================================
+   Global Styles
+   ========================================================================== */
+
+/* Base font — Space Grotesk for headings, DM Sans for body */
+html, body {
+  font-family: 'DM Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-heading {
+  font-family: 'Space Grotesk', 'Helvetica Neue', sans-serif;
+}
+
+.custom-hero-text {
+  font-family: 'Space Grotesk', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-kerning: normal;
+}
+
+/* Focus ring for accessibility */
+:where(a, button, input, textarea, select, summary):focus-visible {
+  outline: 2px solid var(--color-cyan-400);
+  outline-offset: 3px;
+}
+
+/* ==========================================================================
+   Custom Animations
+   ========================================================================== */
+
+@keyframes blur-in {
+  0% { filter: blur(12px); opacity: 0; transform: translateY(20px) scale(0.97); }
+  100% { filter: blur(0); opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes slide-up-bold {
+  0% { opacity: 0; transform: translateY(60px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(255, 45, 85, 0.15); }
+  50% { box-shadow: 0 0 40px rgba(255, 45, 85, 0.3); }
+}
+
+.animate-blur-in {
+  animation: blur-in 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-up-bold {
+  animation: slide-up-bold 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-glow-pulse {
+  animation: glow-pulse 3s ease-in-out infinite;
+}
+
+/* Stagger delays for children */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.35s; }
+.stagger-4 { animation-delay: 0.5s; }
+
+/* Hover lift effect for interactive cards */
+.hover-lift {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease, border-color 0.25s ease;
+  border: 2px solid transparent;
+}
+.hover-lift:hover {
+  transform: translateY(-4px) scale(1.005);
+  box-shadow: 0 12px 40px rgba(255, 45, 85, 0.3), 0 0 80px rgba(255, 45, 85, 0.15);
+  border-color: #C8FF00;
+}
+
+/* ==========================================================================
+   Resume Page Styles
+   These styles control the two-column resume layout.
+   Edit these to change the resume appearance.
+   ========================================================================== */
+
+.resume-page {
+  font-family: 'DM Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.resume-page .resume_header,
+.resume-page .resume_project {
+  font-family: 'Space Grotesk', 'Helvetica Neue', sans-serif;
+}
+
+.resume-dark {
+  background-color: #0A0A24;
+  color: #d2d2d2;
+}
+
+.text-gray-200 {
+  color: white;
+}
+
+/* Resume layout container */
+.resume-shell {
+  max-width: 80rem;
+  margin: 0 auto 80px;
+  padding: 0 24px;
+}
+
+/* Each resume row (company + role pair) */
+.resume-item {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 0 0 32px 0;
+  font-size: 0.95em;
+  line-height: 1.4;
+}
+
+.resume-element {
+  flex: 1;
+  color: #d2d2d2;
+}
+
+.resume-element p {
+  margin-top: 6px;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+/* Left column: company name, location, dates */
+.resume-textbox {
+  font-size: 0.9em;
+  color: #3b3b3b;
+}
+
+.resume_header {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+}
+
+.resume_set {
+  font-size: 16px;
+}
+
+.resume_title {
+  display: block;
+  margin: 0 0 5px 0;
+  font-size: 0.95em;
+  font-weight: 400;
+  color: inherit;
+}
+
+.resume_project {
+  display: block;
+  text-align: right;
+  font-weight: 700;
+  color: inherit;
+  font-size: 1.15em;
+  margin: 0 0 5px 0;
+}
+
+.resume_place {
+  display: block;
+  text-align: right;
+  color: inherit;
+}
+
+.resume_skill_heading {
+  display: inline;
+  font-weight: 600;
+  color: inherit;
+}
+
+.resume-skill {
+  margin: 0;
+  color: inherit;
+}
+
+/* Resume link styling */
+.resume-page a {
+  text-decoration: none;
+}
+
+.resume-dark a {
+  color: #ffffff;
+}
+
+.resume-dark a:hover {
+  color: #dadada;
+}
+
+.resume-dark .resume_title,
+.resume-dark .resume_project,
+.resume-dark .resume_header {
+  color: #ffffff;
+}
+
+.resume-dark .resume_set,
+.resume-dark .resume_place,
+.resume-dark .resume-skill {
+  color: #d2d2d2;
+}
+
+/* Resume PDF download link */
+.resume-download-link {
+  color: #FF6B8A;
+}
+
+.resume-download-link:hover {
+  color: #FFB8C9;
+}
+
+/* ==========================================================================
+   Rich Text Styling
+   Applied to HTML content rendered via dangerouslySetInnerHTML
+   ========================================================================== */
+
+.richtext a {
+  color: #FF2D55;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.richtext a:hover {
+  color: #FF6B8A;
+  text-decoration: underline;
+  text-decoration-color: #C8FF00;
+  text-underline-offset: 3px;
+}
+
+.richtext ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin: 0.75rem 0;
+}
+
+.richtext ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  margin: 0.75rem 0;
+}
+
+.richtext li {
+  margin: 0.35rem 0;
+}
+
+/* ==========================================================================
+   Responsive: two-column resume layout on wider screens
+   ========================================================================== */
+
+@media (min-width: 900px) {
+  .resume-item {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .resume-textbox {
+    width: 220px;
+    text-align: right;
+    order: 1;
+  }
+
+  .resume-element {
+    order: 2;
+  }
+}

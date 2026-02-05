@@ -1,0 +1,3 @@
+school,location,start_date,end_date,degree,details,display_order
+State University,"Anytown, USA",2011,2015,"B.A., Design Studies","Graduated with honors. Focus on human-computer interaction and visual communication.",0
+City College,"Somewhere, USA",2015,2017,"M.Des., Interaction Design","Thesis on designing for accessibility in complex data environments.",1
