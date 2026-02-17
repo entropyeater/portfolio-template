@@ -2,6 +2,8 @@
 
 A customizable portfolio website built with React, TypeScript, Vite, and Tailwind CSS. Designed for designers and developers who want a clean, dark-themed portfolio with case study pages, a resume section, and focus area deep-dives.
 
+Preview at https://entropyeater.github.io/portfolio-template/index.html
+
 ## How It Works
 
 Content is managed through **CSV files** in `src/data/`. A build script converts them into JSON that the React app imports at build time.
